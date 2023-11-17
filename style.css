@@ -1,0 +1,80 @@
+header {
+    height: 60px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    padding-left: 32px;
+    font-size: large;
+}
+
+nav a:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.search_box {
+    border-radius: 5px;
+}
+
+.searchInput {
+    width: 80%;
+    border: none;
+}
+
+.searchInput::placeholder {
+    color: white;
+}
+
+.search_btn {
+    color: white;
+    width: 20%;
+    text-decoration: none;
+}
+
+.atalas_font {
+    font-family: 'Courgette', cursive;
+}
+
+/* nav mobile */
+
+.offcanvas {
+    background: black;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover {
+    font-weight: bold;
+}
+
+.btn-nav-bar {
+    font-size: 40px;
+}
+
+.offcanvas-header {
+    background: white;
+    height: 60px;
+}
+
+/* footer */
+
+footer .container{
+    min-height: 100px;
+    /* background: black; */
+    /* border-top: 1px solid black; */
+}
+
+footer .icons a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 8px;
+}
